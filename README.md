@@ -1,2 +1,2 @@
 # Refactored-for-Accessibility
-A website, styled with CSS, describing a fake company/product that updates websites to comply with modern accessibility standards.
+A website, styled with CSS, describing a fake company/product that updates websites to comply with modern accessibility standards. The website itself has been updated from source code (not provided) to be fully compliant with accessiblity standards, particularly for use with a screen reader.
