@@ -8,10 +8,11 @@
 </head>
 
 <body>
-    <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+    <header class="header">
+        <h1 alt = "Horiseon">Hori<span class="seo">seo</span>n</h1>
+        <nav>
             <ul>
+                <!-- Is the screen reader announcing the "level one" etc ok practice? -->
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
@@ -22,12 +23,14 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
-    <div class="hero"></div>
+        </nav>
+    </header>
+
+    <!-- This image falls into the gray area of "purely decorative". Since it's such an important visual aspect of the page, I felt like it needed description even though no new information is conveyed.  Making this project from scratch, I would have preferred the image to be referenced in the html and not just CSS, and as an image, but since there is a work around it's better to not mess with established formatting. -->
+    <div class="hero" role="img" aria-label="Four people work together at a table"></div>
     <div class="content">
         <div class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="A notebook with a schematic of SEO principles sits on a wood surface, circled by a computer, magnifying glass, cup of coffe, pencils, and cup full of colored pencils. The SEO schematic consists of six points arranged in clockwise order around the center label of SEO: Content, Headings, Mobile Compatability, Social Media, Link Building, and Backlink"/>
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
